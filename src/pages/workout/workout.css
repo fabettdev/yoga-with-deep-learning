@@ -1,0 +1,30 @@
+.workout {
+  display: flex;
+}
+
+.workout .webcam {
+  position: relative;
+}
+
+.workout .info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workout .info > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2.5rem;
+  width: 60%;
+}
+
+.workout .actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}

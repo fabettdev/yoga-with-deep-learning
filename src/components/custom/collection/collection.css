@@ -1,0 +1,52 @@
+.collection {
+  overflow: hidden;
+}
+
+.collection header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.collection .actions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.collection .actions div {
+  cursor: pointer;
+  height: 1.7rem;
+  width: 1.7rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.collection .actions div i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.collection .slider-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0 -0.5rem;
+}
+
+.collection ul {
+  display: flex;
+  width: 100%;
+  transition: transform 500ms ease-in-out;
+}
+
+.collection li {
+  flex: 0 0 20%;
+  max-width: 20%;
+  aspect-ratio: 9/16;
+  padding: 0 0.5rem;
+}

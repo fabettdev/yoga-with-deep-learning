@@ -1,0 +1,18 @@
+#main-header {
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+#main-header h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#main-header nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}

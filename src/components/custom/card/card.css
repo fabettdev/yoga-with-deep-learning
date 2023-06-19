@@ -1,0 +1,36 @@
+article.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+article.card .image {
+  position: absolute;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  /* background-image: url("../../../assets/images/yoga.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+article.card .detail {
+  text-align: center;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

@@ -1,0 +1,36 @@
+.status {
+  background-color: white;
+  display: flex;
+  color: black;
+  min-width: 20rem;
+  font-weight: 700;
+}
+
+.status .timer {
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status .exercises {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.status .current {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.status .next {
+  font-size: 0.9rem;
+  background-color: #ceff1a;
+  padding: 0.25rem 1rem;
+  width: 100%;
+}

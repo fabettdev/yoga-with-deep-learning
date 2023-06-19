@@ -1,0 +1,19 @@
+button.default {
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 0.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px white;
+  transition: transform 0.25s;
+}
+
+button.default:hover {
+  color: black;
+  background-color: #ceff1a;
+  border-color: black;
+  box-shadow: none;
+  transform: translate(2px, 4px);
+}
